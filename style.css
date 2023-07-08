@@ -87,6 +87,11 @@ nav a {
 
 /* main section start */
 
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -112,3 +117,13 @@ nav a {
 
 
 /* about start here */
+
+.about-info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-info {
+    text-align: center;
+    padding: 0 20px;
+}
