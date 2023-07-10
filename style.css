@@ -51,7 +51,7 @@
         }
         
         .header {
-            height: 100vh;
+            /* height: 100vh; */
             background-color: #FFF8F3;
             background-image: url(./image/background.png), url(./image/devloper.png);
             background-repeat: no-repeat;
@@ -70,7 +70,7 @@
         .banner .profile-img {
             width: 500px;
             padding-right: 50px;
-            transform: translateY(195px);
+            transform: translateY(5px);
         }
         
         .banner-greeting {
