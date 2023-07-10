@@ -84,7 +84,7 @@
             font-style: norma;
             font-weight: 700;
             margin-top: 5px;
-            margin-bottom: 20px;
+            /* margin-bottom: 20px; */
         }
         
         .banner-contain {
