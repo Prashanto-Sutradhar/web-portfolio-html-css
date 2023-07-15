@@ -226,6 +226,14 @@
             /* mobile device */
             
             @media screen and (max-width: 576px) {
+                * {
+                    padding: 0%;
+                    margin: 0%;
+                }
+                .header {
+                    background-image: none;
+                }
+                nav>ul,
                 .skill-container,
                 .resume-container {
                     flex-direction: column;
@@ -255,5 +263,33 @@
                 }
                 .about-info-container {
                     flex-direction: column;
+                }
+                nav {
+                    flex-direction: column;
+                    background-image: none;
+                }
+                .banner {
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 0px;
+                    text-align: center;
+                }
+                nav>ul {
+                    flex-direction: row-reverse;
+                    margin-bottom: 20px;
+                    padding: 0%;
+                }
+                .banner .profile-img {
+                    width: 100%;
+                    padding: 0%;
+                }
+                nav>ul {
+                    gap: 10px;
+                }
+                .cv {
+                    margin-top: 10px;
+                }
+                .contact-us {
+                    margin-top: 10px;
                 }
             }
